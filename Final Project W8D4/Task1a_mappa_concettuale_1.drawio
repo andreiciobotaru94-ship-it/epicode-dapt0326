@@ -1,0 +1,46 @@
+<mxfile host="Electron">
+  <diagram name="Task 1a - Mappa concettuale" id="conc1a">
+    <mxGraphModel dx="798" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=18;fontStyle=1;align=center;" value="ToysGroup - Mappa concettuale" vertex="1">
+          <mxGeometry height="30" width="410" x="220" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_product" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#04342C;fontSize=16;fontStyle=1;" value="Product" vertex="1">
+          <mxGeometry height="70" width="200" x="50" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_sales" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#993C1D;fontColor=#4A1B0C;fontSize=16;fontStyle=1;" value="Sales" vertex="1">
+          <mxGeometry height="70" width="200" x="325" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_region" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#04342C;fontSize=16;fontStyle=1;" value="Region" vertex="1">
+          <mxGeometry height="70" width="200" x="600" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="arr1" edge="1" parent="1" source="ent_product" style="endArrow=block;endFill=1;html=1;strokeColor=light-dark(#993C1D,#FFFFFF);strokeWidth=1.5;" target="ent_sales">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lab1" parent="1" style="text;html=1;fontSize=12;align=center;fontStyle=1;" value="1 : N" vertex="1">
+          <mxGeometry height="20" width="65" x="255" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="arr2" edge="1" parent="1" source="ent_region" style="endArrow=block;endFill=1;html=1;strokeColor=light-dark(#993C1D,#FFFFFF);strokeWidth=1.5;" target="ent_sales">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lab2" parent="1" style="text;html=1;fontSize=12;align=center;fontStyle=1;" value="N : 1" vertex="1">
+          <mxGeometry height="20" width="65" x="530" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="key1" parent="1" style="text;html=1;fontSize=12;align=center;" value="chiave: ProductID" vertex="1">
+          <mxGeometry height="20" width="200" x="50" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="key2" parent="1" style="text;html=1;fontSize=12;align=center;" value="chiave: SalesID" vertex="1">
+          <mxGeometry height="20" width="200" x="325" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="key3" parent="1" style="text;html=1;fontSize=12;align=center;" value="chiave: RegionID" vertex="1">
+          <mxGeometry height="20" width="200" x="600" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=1;fontSize=12;align=center;" value="Product ha una Category, Region ha uno State" vertex="1">
+          <mxGeometry height="20" width="410" x="220" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
