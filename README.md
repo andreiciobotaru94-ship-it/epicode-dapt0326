@@ -1,5 +1,7 @@
 # ToysGroup · Esercitazione finale · Modulo 4
 
+Linguaggio: Python
+
 Analisi dei dati di vendita di ToysGroup, un'azienda che distribuisce giocattoli tramite una rete di rivenditori in vari paesi europei. Tutto il lavoro è nel notebook `Esercitazione_finale_ToysGroup.ipynb`.
 
 ## Dati
