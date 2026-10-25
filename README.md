@@ -50,5 +50,9 @@ Servono pandas, numpy, matplotlib, seaborn, plotly, scikit-learn e openpyxl.
  
  Eseguito da: AndreiCiobotaru, consegna del 25/10/2026.
 
+ Dati: 4 file (CSV, Excel, JSON) inclusi nel repository.
+
+ 
+
 
 
