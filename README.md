@@ -45,3 +45,4 @@ Servono pandas, numpy, matplotlib, seaborn, plotly, scikit-learn e openpyxl.
 3. Completo il notebook con i Task 5-7
 Requisiti: Python 3 e JupyterLab (installabili con Anaconda)
 Eseguito da: AndreiCiobotaru, consegna del 25/10/2026.
+
