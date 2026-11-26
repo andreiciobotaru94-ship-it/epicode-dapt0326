@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: stg_clienti
+    columns:
+      - name: id_cliente
+        tests: [unique, not_null]
+      - name: email
+        tests: [unique, not_null]
+
+  - name: stg_fatture
+    columns:
+      - name: id_fattura
+        tests: [unique, not_null]
+      - name: id_cliente
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_clienti')
+              field: id_cliente
+
+  - name: stg_righe_fattura
+    columns:
+      - name: id_riga
+        tests: [unique, not_null]
+      - name: id_fattura
+        tests:
+          - relationships:
+              to: ref('stg_fatture')
+              field: id_fattura
+      - name: quantita
+        tests:
+          - not_null
+
+  - name: stg_brani
+    columns:
+      - name: id_brano
+        tests: [unique, not_null]
+      - name: genere
+        tests: [not_null]

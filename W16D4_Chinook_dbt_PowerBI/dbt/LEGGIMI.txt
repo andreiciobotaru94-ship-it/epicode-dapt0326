@@ -1,0 +1,5 @@
+Progetto dbt per il database Chinook.
+1) pip install dbt-sqlite
+2) Copia profiles.yml.esempio come profiles.yml e sistema i percorsi
+3) Dalla cartella del progetto: dbt run   (crea 5 modelli)
+4) dbt test   (esegue 16 controlli)

@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: chinook
+    description: "Database di partenza del negozio di musica (tabelle originali, non modificate)."
+    schema: main
+    tables:
+      - name: Customer
+      - name: Invoice
+      - name: InvoiceLine
+      - name: Track
+      - name: Genre
+      - name: Album
+      - name: Artist
